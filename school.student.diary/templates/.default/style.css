@@ -1,0 +1,158 @@
+table.diary-table{
+  padding: 5px;  
+}
+
+table.diary-table td{
+  vertical-align: top;
+  padding: 5px;
+}
+
+.diary-date-time {
+	color:#486DAA;
+}
+
+div.homework_files {
+ margin-top: 3px;
+ padding-left: 18px;
+ background: url("images/materials.gif") no-repeat;
+}
+
+.logsFilter {
+ float: right;
+}
+
+.logsSwitch {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ margin-bottom: 8px;
+}
+
+.logsSwitch li, .logsSwitch li a {
+ display: inline-block;
+ *display: inline;
+ zoom: 1;
+ vertical-align: top;
+}
+
+.logsSwitch li {
+ padding: 0 10px;
+ font-size: 14px;
+}
+
+.logsSwitch .navi {
+ padding: 0;
+}
+
+.logsSwitch .navi a {
+ text-decoration: none;
+ width: 20px;
+ height: 20px;
+}
+
+.logsSwitch .prev a {
+ background: url(images/l.png) 0 0 no-repeat;
+}
+
+.logsSwitch .next a {
+ background: url(images/r.png) 0 0 no-repeat;
+}
+
+.logs h3, .content .logs h3 {
+ font-weight: bold;
+ background: none;
+}
+
+.logsContainer {
+ overflow: auto;
+ margin-bottom: 25px;
+}
+
+.logsTable {
+ border-collapse:collapse;
+ width: 100%;
+ background: #ededed;
+ text-align: center;
+ border-bottom: 1px solid #dddddd;
+}
+
+.logsTable td {
+ border: none;
+ padding: 7px 12px 6px;
+ white-space: nowrap;
+}
+
+.logsTable thead td, .logsTable thead th {
+ background: #006eb5;
+ border: 1px solid #1b7dbc;
+ color: #fff;
+ padding: 7px 12px;
+}
+
+.logsTable thead th {
+ font-weight: bold;
+}
+
+.logsTable th a{
+ color:#fff;
+}
+
+.logsTable .even td {
+ background: #f8f8f8;
+}
+
+.logsTable tr .green {
+ background: #bcf783;
+}
+
+.logsTable tr td.red {
+ background: #ffd2c7;
+}
+
+.logsTable colgroup {
+ border: 1px solid #d3d3d3;
+ border-top: none;
+ border-bottom: none;
+}
+
+.logsTable .first {
+ border: 1px solid #ededed;
+ border-top: none;
+ border-bottom: none;
+}
+
+.logsTable .names {
+ min-width: 185px;
+ text-align: left;
+}
+
+.diaryLogs {
+ text-align: left;
+}
+
+.logsTable .time, .logsTable .marks {
+ font-size: 10px;
+ padding-right: 8px;
+ padding-left: 8px;
+}
+
+.logsTable .num {
+ font-size: 12px;
+}
+
+.logsTable .time {
+ width: 70px;
+ padding-left: 4px;
+ padding-right: 4px;
+}
+
+.logsTable .class {
+ width: 80px;
+}
+
+.logsTable .homeTask {
+ font-style: italic;
+}
+.content .logs ul li {
+background:none;
+}

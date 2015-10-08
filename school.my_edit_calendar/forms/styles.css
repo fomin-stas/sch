@@ -1,0 +1,16 @@
+#periods_block
+{
+	float:left; 
+	height:200px; 
+	width:40%; 
+	border-right-style: solid; 
+	border-right-width: 1px !important;	
+	border-right-color: #C9C9C9;
+}
+
+#description_block
+{
+	float:right; 
+	height:200px; 
+	width:59%
+}

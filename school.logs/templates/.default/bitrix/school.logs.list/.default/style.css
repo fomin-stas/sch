@@ -1,0 +1,17 @@
+/*.cs-first-level>li{list-style:none;}*/
+
+.itemRow{
+  overflow:hidden;
+  /*white-space:nowrap;*/
+}
+
+.item{
+  display:inline-block;
+  margin:0 0px 0px 0;
+  vertical-align:top;
+  width:230px;
+}
+
+.subjects-list{
+  padding: 0px 0px 0px 15px;
+}

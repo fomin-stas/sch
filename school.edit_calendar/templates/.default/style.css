@@ -1,0 +1,978 @@
+/* buttons */
+
+
+.week_selector
+{
+	width: 100%;
+	text-align: center;
+	font-size: 125%;
+	padding-top: 7px;
+}
+
+.week_selector table
+{
+	width:100%;
+}
+
+.week_selector table td
+{
+	width:33%;
+}
+
+.week_but_prev a img
+{
+	border: none;
+}
+
+.week_but_next a img
+{
+	border: none;
+}
+
+
+
+.table_head
+{
+  border-collapse: collapse;
+  width:100%;
+  padding: 0px;
+  margin:0px;
+}
+
+.head_days
+{
+	border-collapse: collapse;
+	width: 100%;
+	padding: 0px;
+	margin:0px;
+}
+
+.head_days td
+{
+	border: 1px solid #C9C9C9;
+	background: url(/bitrix/images/bitrix.schoolschedule/calendar/event_calendar/day_bg.gif) repeat-x;
+	text-align: center;
+	vertical-align: top;
+	height:40px;
+}
+
+.head_days td.curent_day
+{
+	border: 1px solid #C9C9C9;
+	background: url(/bitrix/images/bitrix.schoolschedule/calendar/event_calendar/cur_day_bg.gif) repeat-x;
+	text-align: center;
+}
+
+.time_area
+{
+	/*overflow: auto;*/
+/*	height: 500px; */
+	width: 100%;
+	position: relative;
+}
+
+.time_table
+{
+	border-collapse: collapse;
+	width:100%;
+	text-align:center;
+	margin-bottom:0;
+}
+
+.head_days td.current_day
+{
+
+	height: 20px;
+
+	border-top-style: solid;
+	border-top-width: 1px !important;
+	border-top-color: #C9C9C9;
+
+	border-left-style: solid;
+	border-left-width: 1px !important;
+	border-left-color: #C9C9C9;
+
+	border-right-style: solid;
+	border-right-width: 1px !important;
+	border-right-color: #C9C9C9;
+
+	border-bottom-style: solid;
+	border-bottom-width: 1px !important;
+	border-bottom-color: #C9C9C9;
+
+	font-weight:bold;
+
+}
+
+
+
+.start_hour1 td.current_day
+{
+
+	height: 20px;
+
+	border-top-style: solid;
+	border-top-width: 1px !important;
+	border-top-color: #C9C9C9;
+
+	border-left-style: solid;
+	border-left-width: 1px !important;
+	border-left-color: #C9C9C9;
+
+	border-right-style: solid;
+	border-right-width: 1px !important;
+	border-right-color: #C9C9C9;
+
+	border-bottom-style: dotted;
+	border-bottom-width: 0px !important;
+	border-bottom-color: #C9C9C9;
+
+	background: #E9F3C3;
+
+}
+
+
+.start_hour1 td.left_row
+{
+	height: 20px;
+	border-top-style: solid;
+	border-top-width: 1px !important;
+	border-top-color: #C9C9C9;
+	border-left-style: solid;
+	border-left-width: 0px !important;
+	border-left-color: #C9C9C9;
+	border-right-style: solid;
+	border-right-width: 0px !important;
+	border-right-color: #C9C9C9;
+	border-bottom-style: solid;
+	border-bottom-width: 1px !important;
+	border-bottom-color: #C9C9C9;
+	background: #FDFDFD;
+	font-size: 75%;
+	color: #808080 !important
+}
+
+.start_hour1 td.free_class0{
+	background: #DEBEDE !important;}
+.start_hour1 td.turn_class{
+	background: #8fd8e8 !important;}
+.start_hour1 td.free_class01, .start_hour1 td.free_class11{
+	background: #E5E5E5 !important;
+	color: #858585 !important;}
+
+.start_hour td.free_class0{
+	background: #DEBEDE !important;}
+
+.start_hour1 td.free_class1{
+	background: #C5E29F !important;}
+
+
+.start_hour td.free_class1{
+	background: #C5E29F !important;}
+
+.start_hour1 td.n_free_class{
+	background: #E57F99 !important;}
+.start_hour td.n_free_class{
+	background: #E57F99 !important;}
+
+.services_specialists{
+	width:100%;}
+
+.r_link{
+	text-decoration: none;}
+
+div.warning{
+	color:#F15A24;
+	font-size:16px;
+	margin-bottom:15px;
+}
+
+#periods_block
+{
+	float:left;
+	min-height:482px;
+	width:30%;
+	border-right-style: solid;
+	border-right-width: 1px !important;
+	border-right-color: #C9C9C9;
+}
+
+#description_block
+{
+	float:right;
+	min-height:482px;
+	width:69%
+}
+
+.period_rec
+{
+	border-bottom-style: dotted;
+	border-bottom-width: 1px !important;
+	border-bottom-color: #C9C9C9;
+	padding:10px;
+	margin-right:10px;
+	height:autho;
+	
+	float:none;
+}
+
+ .period_edit
+ {
+ 	float:right;	
+ 	margin: 0,6px, 3px, 6px;
+ }
+
+ .period_info_hiden
+ {
+ 	display:none;
+ }
+ 
+ .param
+ {
+ 	margin:10px;
+ }
+ 
+ #gray_conteniner
+ {
+ 	display:none;
+ 	position: absolute;
+ 	width: 100%;
+ 	height:100%;
+ 	background-color: RGB(128,128,128);
+ 	filter:alpha(opacity=50);
+	opacity:0.5;
+	z-index: 2001 !important;
+	left:0px;
+	top:0px;
+ }
+ 
+ #add_period_block
+ {
+ 	display:none;
+ 	margin: 0px;
+ 	width: 100%;
+ 	height: 95%;
+	background-color: transperent;
+	filter:alpha(opacity=100);
+	opacity:100;
+	z-index: 100001 !important;
+ }
+ 
+ #close_add_period
+ {
+
+ 	padding:10px;
+	background-repeat: repeat-x;
+	background-position:0 -296px;
+	background-image: url("/bitrix/js/main/core/images/dialog_borders_tb_sprite01.png");
+ }
+ 
+ #edit_period_block
+ {
+ 	margin: 10px;
+ }
+ 
+ .add_select
+ {
+ 	width:100%;
+ }
+ 
+ .add_input
+ {
+ 	width: 47%;
+ }
+ 
+ #add_period_services
+ {
+ 	width:100%;
+ }
+ #add_period_services_block
+ {
+ 	width:100%;
+ }
+ 
+ .center_buttons
+ {
+	width:100%;
+	text-align: center !important;
+	background-position: right -176px;
+	height:36px;
+	padding:8px 0 0 0;
+ }
+ 
+ #error_message
+ {
+ 	position: absolute;
+ 	margin: 27px;
+ 	width: 90%;
+ 	top:250px;
+ 	z-index: 110000 !important;
+  	border: 2px solid #FF0000;
+	background-color: white;
+	display:none;
+	left:0px;
+ }
+ 
+ 
+  #error_message1
+ {
+ 	position: absolute;
+ 	margin: 10px;
+ 	width: 90%;
+ 	top:40px;
+ 	z-index: 110000 !important;
+  	border: 2px solid #FF0000;
+	background-color: white;
+	display:none;
+ }
+ 
+ div.icon-error {
+    background-image: url("/bitrix/images/bitrix.schoolschedule/calendar/event_calendar/icon_error.gif");
+    height: 32px;
+    width: 32px;
+    margin-left:10px;
+    margin-right:20px;
+    float:left;
+}
+
+.time_table{
+	border-collapse: collapse;
+	width:100%;
+	text-align:center;}
+/*.time_table a{*/
+/*text-decoration: none;}*/
+.time_table td{
+	}
+.time_table td div{
+	width:auto;
+	padding:0px 0 0px 2px;}
+.time_table td.talon_color div,
+.time_table td.busy_color div{
+	}
+.time_table td div:active{
+	background:#41CBB7;}
+/*.time_table td a div{*/
+/*padding-left:0;}*/
+.time_table div.cellDiv{
+	border-bottom:solid 1px #C9C9C9;}
+
+/*WEB_COLORS*/
+.legendItem{
+	width:100px;
+	text-align: center;}
+.talon_color{
+	font-size: 11px;
+	text-align:left;
+	}
+.talon_color a{
+	font-size: 11px;}
+
+.fill_color{
+	background: #E57F99 !important;}
+.line_color{
+	}
+.hospital_color{
+	background: #E5E5E5 !important;
+	color: #858585;}
+.busy_color{
+	font-size: 11px;
+	text-align:left;
+	background: #E57F99 !important;}
+/*Legend*/
+div.legend div.legend-right{
+	float:left;
+	height:35px;
+	width:100px;
+	line-height: 34px;
+	margin:0 14px 5px 0;}
+div.legend div.description{
+}
+
+div.legend .talon_color{
+	font-size: 13px;
+	text-align: center;}
+div.legend .fill_color{
+	width:100px;
+	text-align: center;}
+div.legend .turn_color{
+	width:100px;
+	text-align: center;}
+div.legend .old_color{
+	width:100px;
+	text-align: center;
+	color: #858585;}
+div.legend span.hint{
+	font-size: 10px;
+	font-style: italic;}
+	
+	
+.weeks {
+color: #999;
+padding: 0 20px 10px;
+background: url('images/dot_popup.gif') 0 100% repeat-x;
+height: 20px
+}
+
+label {
+color: #999;
+display: block;
+margin: 0 0 5px;
+}
+
+.weeks .prev,
+.weeks .next {
+float: left;
+width: 20px;
+height: 20px;
+}
+
+.weeks .prev a {
+display: block;
+width: 20px;
+height: 20px;
+background: url('images/button_prev.gif') no-repeat;
+}
+
+.weeks .next a {
+display: block;
+width: 20px;
+height: 20px;
+background: url('images/button_next.gif') no-repeat;
+}
+
+.weeks .date {
+float: left;
+width: 225px;
+color: #000;
+font-size: 13px;
+text-align: center;
+margin: 0 10px;
+padding: 2px 5px;
+background-color: #ADCF80;
+}
+
+.weeks .date,
+.jq-cell .window {
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+-khtml-border-radius: 3px;
+behavior: url('js/PIE.htc');
+}
+
+.checks {
+padding: 7px;
+background: url('images/dot_popup.gif') 0 100% repeat-x;
+height:45px;
+}
+
+.checks .item {
+margin: 5px 0;
+display:block;
+float:none;
+}
+
+.checks .item input {
+float: left;
+width: 14px;
+height: 14px;
+margin: 1px 12px 1px 3px;
+}
+
+.checks .item label {
+float: left;
+color: #999;
+margin: 0 0 0 5px;
+}
+
+.repeats {
+padding: 8px 0;
+}
+
+.repeats label,
+.repeats span {
+float: left;
+color: #999;
+margin: 4px 8px 3px 0;
+}
+.repeats span 
+{
+padding: 0 0 0 8px
+}
+.repeats input {
+float: left;
+width: 20px;
+color: #000;
+font-size: 12px;
+font-family: Arial;
+text-align: center;
+margin: 0 8px 0 0;
+}
+
+.field_separator
+{
+	height:5px;
+}
+.delete {
+cursor: pointer;
+position: absolute;
+top: 2px;
+right: 3px;
+width: 10px;
+height: 10px;
+background: url('images/icon_delete.png') no-repeat;
+}
+
+.retr {
+cursor: pointer;
+position: absolute;
+top: 2px;
+right: 3px;
+width: 15px;
+height: 15px;
+background: url('images/confirm.png') no-repeat;
+}
+
+
+
+#shedule .main_calendar .calendar_header {
+text-align: center;
+margin: 0 0 20px;
+}
+
+#shedule .main_calendar .calendar_header h2 {
+color: #000;
+font-size: 17px;
+font-weight: bold;
+font-family: 'Trebuchet MS';
+text-transform: uppercase;
+	margin:0px !important;
+	padding: 0px !important;
+}
+
+#shedule .main_calendar .calendar_header p {
+color: #000;
+font-size: 13px;
+font-weight: bold;
+font-family: 'Trebuchet MS';
+margin: 0 0 10px;
+}
+
+#shedule .main_calendar .calendar_header p a {
+color: #355FAE;
+}
+#shedule .main_calendar .calendar_header .week_selector {
+	padding-top:5px;
+}
+#shedule .main_calendar .calendar_header .week_selector table{
+	margin-left:auto; margin-right:auto
+}
+
+#shedule .main_calendar .calendar_header .week_selector .prev {
+width: 20px;
+height: 20px;
+background: url('images/button_prev.gif') no-repeat;
+}
+
+#shedule .main_calendar .calendar_header .week_selector .next {
+width: 20px;
+height: 20px;
+background: url('images/button_next.gif') no-repeat;
+}
+
+#shedule .main_calendar .calendar_header .week_selector span {
+font-size: 15px;
+white-space: nowrap;
+font-weight: bold;
+margin: 0 15px;
+}
+
+#shedule .main_calendar .time_area {
+margin: 0 0 5px;
+padding: 1px 0;
+border: 1px solid #BEBEBE;
+}
+
+#shedule .main_calendar .time_area table {
+width: 100%;
+border-collapse: collapse;
+	margin-bottom:0px
+}
+
+#shedule .main_calendar .time_area table thead th {
+border-left: 1px solid #FFF;
+border-right: 1px solid #FFF;
+padding: 10px;
+background: #D8DBDE url('images/bg_listing_table_th.gif') 0 100% repeat-x;
+}
+
+#shedule .main_calendar .time_area table thead th.currentDay {
+background: #5E5F61;
+}
+
+#shedule .main_calendar .time_area table thead th p {
+display: inline;
+padding: 0 20px 0 0;
+}
+
+#shedule .main_calendar .time_area table thead th.currentDay{
+color: #FFF;
+}
+
+#shedule .main_calendar .time_area table tfoot td {
+height: 13px;
+border-left: 1px solid #C2C2C2;
+border-right: 1px solid #C2C2C2;
+background: #F3F3F3 url('images/bg_listing_table_td.gif') repeat-x;
+}
+
+#shedule .main_calendar .time_area table tfoot td.first {
+border-left: 1px solid #FFF;
+}
+
+#shedule .main_calendar .time_area table tfoot td.last {
+border-right: 1px solid #FFF;
+}
+
+#shedule .main_calendar .time_area table tbody th {
+vertical-align: top;
+padding: 5px 5px 5px 0;
+border: 1px solid #C2C2C2;
+border-left: 1px solid #FFF;
+}
+
+#shedule .main_calendar .time_area table tbody th p {
+text-align: right;
+background-color: #FFF;
+margin: 0;
+padding: 0;
+}
+
+#shedule .main_calendar .time_area table tbody td {
+width: 110px;
+height: 25px;
+vertical-align: top;
+padding: 0 1px;
+border: 1px solid #C2C2C2;
+}
+
+#shedule .main_calendar .time_area table tbody td.last {
+border-right: 1px solid #FFF;
+}
+
+#shedule .main_calendar .time_area table tbody td .item {
+position: relative;
+font-size: 11px;
+font-family: 'Trebuchet MS';
+margin: 1px 0;
+padding: 2px 2px 2px 5px;
+border: 1px solid #90B291;
+}
+
+.talon_color{
+	background-color: #D3F0D4 !important;
+}
+
+.line_color {
+background-color: #DAE8F7 !important;
+}
+.line_color  p{
+	color: #355FAE;
+}
+.busy_color {
+	background-color: #F7C1C9;
+}
+.busy_color span {
+	color: #79545A;
+}
+
+.wish_color {
+	background-color: #F0D3EE;
+}
+.old_color {
+	background-color: #ebe9d9 !important;
+}
+.vacation_color {
+	background-color: #f8f2d1 ;
+}
+
+#shedule .main_calendar .time_area table tbody td .resize p {
+	font-size: 10px;
+	text-align: center;
+}
+
+
+#shedule .main_calendar .time_area table tbody td .item a {
+color: #355FAE;
+}
+
+#shedule .main_calendar .time_area table tbody td .item a:hover {
+color: #CB2727;
+}
+
+#shedule .main_calendar .time_area table tbody td .item .exit {
+cursor: pointer;
+position: absolute;
+top: 5px;
+right: 5px;
+width: 10px;
+height: 10px;
+background: url('images/icon_exit.png') no-repeat;
+}
+
+#shedule .whois {
+padding: 0 10px !important;
+}
+
+#shedule .whois ul {
+float: left !important;
+width: 100% !important;
+margin: 0 0px 40px 0 !important;
+}
+
+#shedule .whois ul li {
+color: #999 !important;
+margin: 0 0 10px !important;
+padding: 0 0 0 20px !important;
+	background:none !important;
+line-height:20px !important;
+
+}
+
+#shedule .whois ul li span.legend {
+	display:inline-block !important;
+	margin: 0 3px 0 -20px !important;
+	padding: 0;
+	width:12px !important;
+	height:20px !important;
+	border-radius:2px !important;
+	border: 1px solid #90B291 !important;
+	background:none;
+}
+
+#shedule .description {
+width: 670px;
+}
+
+#shedule .description h3 ,#instr h3 {
+color: #999;
+font-size: 15px;
+font-family: 'Trebuchet MS';
+text-transform: uppercase;
+margin: 0 0 10px;
+}
+
+#shedule .description h2 ,#instr h2 {
+color: #111;
+font-size: 24px;
+font-weight: bold;
+font-family: 'Trebuchet MS';
+margin: 0 0 10px;
+}
+
+#shedule .description p ,#instr p {
+color: #111;
+font-size: 14px;
+line-height: 20px;
+}
+
+#shedule .calendar_header .week_selector .prev,
+#shedule .calendar_header .week_selector .next,
+#shedule .calendar_header .week_selector span {
+display: -moz-inline-stack;
+display: inline-block;
+_overflow: hidden;
+zoom: 1;
+*display: inline;
+}
+
+
+:focus {
+-moz-outline: 3px solid #fff!important;
+}
+
+#shedule .main_calendar .time_area table tbody td .item {
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+-khtml-border-radius: 3px;
+behavior: url('js/PIE.htc');
+}
+
+h2{
+padding:15px !important;
+}
+
+#cancel {
+	display: block;
+	cursor: pointer !important;
+	width: auto !important;
+	height: 18px !important;
+	color: #FFF !important;
+	font-size: 12px !important;
+	font-family: Arial, Tahoma, Verdana, sans-serif !important;
+	text-decoration: none !important;
+	background: url('images/button_red.gif') repeat !important;
+	border-radius:5px !important;
+	border: solid 1px #CF092E !important;
+	float: right !important;
+	margin-bottom: 10px !important;
+    padding: 0 10px 0 10px !important;
+}
+
+#cancel:hover {
+color: #333;
+background-position: 0 -18px;
+float: right;
+}
+
+#ok {
+	display: block ; 
+	cursor: pointer !important;
+	width: auto !important;
+	height: 18px !important;
+	color: #000 !important;
+	border-radius:5px !important;
+	font-size: 12px !important;
+	text-align: center !important;
+	font-family: Arial, Tahoma, Verdana, sans-serif !important;
+	background: url('images/button_green.gif') 100% 0 repeat !important;
+	border: solid 1px #799652 !important;
+	float: right !important;
+	margin-bottom: 10px !important;
+    padding: 0 10px 0 10px !important;
+}
+
+#ok:hover {
+color: #333;
+background-position: 100% -18px;
+float: right;
+}
+
+#close_button {
+	display: block ;
+	cursor: pointer !important;
+	width: auto !important;
+	height: 18px !important;
+	color: #FFF !important;
+	font-size: 12px !important;
+	font-family: Arial, Tahoma, Verdana, sans-serif !important;
+	text-decoration: none !important;
+	background: url('images/button_red.gif') repeat !important;
+	border-radius:5px;
+	border: solid 1px #CF092E !important;
+	float: right;
+	margin-bottom: 10px !important ;
+    padding: 0 10px 0 10px !important;
+}
+
+#close_button:hover {
+color: #333;
+background-position: 0 -18px;
+float: right;
+}
+
+#add_button {
+	display: block ;
+	cursor: pointer !important;
+	width: auto !important;
+	height: 18px !important;
+	color: #000 !important;
+	border-radius:5px !important;
+	font-size: 12px !important;
+	text-align: center !important;
+	font-family: Arial, Tahoma, Verdana, sans-serif !important;
+	background: url('images/button_green.gif') 100% 0 repeat !important;
+	border: solid 1px #799652 !important;
+	float: right !important;
+	margin-bottom: 10px !important ;
+    padding: 0 10px 0 10px !important;
+}
+
+#add_button:hover {
+color: #333;
+background-position: 100% -18px;
+float: right;
+}
+
+#update_button {
+	display: block ;
+	cursor: pointer !important;
+	width: auto !important;
+	height: 18px !important;
+	color: #000 !important;
+	border-radius:5px !important;
+	font-size: 12px !important;
+	text-align: center !important;
+	font-family: Arial, Tahoma, Verdana, sans-serif !important;
+	background: url('images/button_green.gif') 100% 0 repeat !important;
+	border: solid 1px #799652 !important;
+	float: right !important;
+	margin-bottom: 10px !important ;
+    padding: 0 10px 0 10px !important;
+}
+
+#update_button:hover {
+color: #333;
+background-position: 100% -18px;
+float: right;
+}
+
+.select1, .select2{
+	background-color:#fafafa;
+	border-bottom:1px solid #eaeaea;
+	border-left:1px solid #c4c4c4;
+	border-right:1px solid #c4c4c4;
+	border-top:1px solid #bebebe;
+	font-size:16px;
+	height:28px;
+	line-height:28px;
+	margin:0;
+	padding:0 0 0 4px;
+		border-radius: 5px 0 0 5px;
+		-moz-border-radius: 5px 0 0 5px;
+		-webkit-border-radius: 5px 0 0 5px;
+		-khtml-border-radius: 5px 0 0 5px;}
+.select1{
+	color:#666;
+}
+#description_block #descr ul li , #instr ul li {
+	background: url("images/li.gif") no-repeat scroll left 5px transparent;
+	list-style: none outside none;
+	margin: 0 0 5px;
+	padding: 1px 0 2px 20px;
+}
+
+.lesson_break, .lesson_break td, .lesson_break th
+{
+	background: none repeat scroll 0 0 #F3F3F3;
+	height: 5px !important;
+	line-height: 10%;
+	margin: 0;
+	padding: 0;
+}
+
+#change_templ
+{	
+ 	margin: 20px,15px, 3px, 6px !important;
+}
+
+.times_block div
+{
+	display: inline;
+	margin-bottom:10px;
+}
+
+.period_link_block
+{
+	width:100px;
+}
+
+.times_block input
+{
+	width:40px !important;
+}
+
+#add_period_services_block  option{
+	padding-left:20px;
+}

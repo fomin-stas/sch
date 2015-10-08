@@ -1,0 +1,316 @@
+.logsContainer {
+ overflow: visible;
+ margin-bottom: 25px;
+}
+
+.logsTable {
+ border-collapse:collapse;
+ width: 100%;
+ background: #ededed;
+ text-align: center;
+ border-bottom: 1px solid #dddddd;
+}
+
+.logsTable td {
+ border: none;
+ padding: 7px 12px 6px;
+ white-space: nowrap;
+}
+
+.logsTable thead td, .logsTable thead th {
+ background: #006eb5;
+ border: 1px solid #1b7dbc;
+ color: #fff;
+ padding: 7px 12px;
+}
+
+.logsTable thead th {
+ font-weight: bold;
+}
+
+.logsTable th a{
+ color:#fff;
+}
+
+.logsTable .even td {
+ background: #f8f8f8;
+}
+
+.logsTable tr .green {
+ background: #bcf783;
+}
+
+.logsTable tr td.red {
+ background: #ffd2c7;
+}
+
+.logsTable colgroup {
+ border: 1px solid #d3d3d3;
+ border-top: none;
+ border-bottom: none;
+}
+
+.logsTable .first {
+ border: 1px solid #ededed;
+ border-top: none;
+ border-bottom: none;
+}
+
+.logsTable .names {
+ min-width: 185px;
+ text-align: left;
+}
+
+.logsTable .time, .logsTable .marks {
+ font-size: 10px;
+ padding-right: 8px;
+ padding-left: 8px;
+}
+
+.logsTable .num {
+ font-size: 12px;
+}
+
+.logsTable .time {
+ width: 70px;
+ padding-left: 4px;
+ padding-right: 4px;
+}
+
+.logsTable .class {
+ width: 80px;
+}
+
+.logsTable .homeTask {
+ font-style: italic;
+}
+
+td.editable {
+ text-align: left;
+ padding: 0;
+ vertical-align: top;
+}
+
+.editableTxt {
+ padding: 7px 12px;
+}
+
+.stat {
+ margin-bottom: 20px;
+}
+
+.tRow {
+ overflow: hidden;
+ zoom: 1;
+ margin-bottom: 8px;
+ padding: 0 8px;
+}
+
+.tRowRound .tRow {
+ padding: 0;
+}
+
+.tRowHead {
+ float: left;
+ width: 120px;
+ color: #919395;
+ margin-right: 4px;
+}
+
+.tRowTxt {
+ overflow: hidden;
+ zoom: 1;
+}
+
+.tRowRound {
+ position: relative;
+ background: #f2f2f2;
+ margin-bottom: 8px;
+ padding: 10px 8px;
+}
+
+.tRowRound .c {
+ position: absolute;
+ width: 5px;
+ height: 5px;
+ background:url(images/lessonCorners.png) 0 0 no-repeat;
+}
+
+.tRowRound .tl {
+ background-position: -5px -5px;
+ left: 0;
+ top: 0;
+}
+
+.tRowRound .tr {
+ background-position: 0 -5px;
+ right: 0;
+ top: 0;
+}
+
+.tRowRound .bl {
+ background-position: -5px 0;
+ left: 0;
+ bottom: 0;
+}
+
+.tRowRound .br {
+ background-position: 0 0;
+ right: 0;
+ bottom: 0;
+}
+
+.workTypes {
+ margin-bottom: 20px;
+}
+
+.workTypes .logsTable {
+ border: none;
+ text-align: left;
+}
+
+.workTypes td.abbr {
+ width: 35px;
+ padding-right: 0;
+ padding-left: 0;
+ text-align: center;
+ background: #006eb5;
+ color: #fff;
+ border-bottom: 1px solid #fff;
+}
+
+div.editable, .editable .editableTxt {
+ position: relative;
+ padding-right: 75px;
+}
+
+.content ul.editOptions {
+ position:absolute;
+ right: 13px;
+ top: 9px;
+ text-align: right;
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+.content ul.editOptions li a {
+ background-position: 0 -13px;
+}
+
+.editable:hover .editOptions li a {
+ background-position: 0 0;
+}
+
+.content ul.editOptions li, .content ul.editOptions a {
+ display: inline-block;
+ *display: inline;
+ zoom: 1;
+ vertical-align: top;
+ width: 13px;
+ height: 13px;
+ text-decoration: none;
+}
+
+.editOptions li {
+ margin-left: 6px;
+}
+
+.editOptions .edit a {
+ background: url(images/i1.png) 0 -13px no-repeat;
+}
+
+.editOptions .delete a {
+ background: url(images/i2.png) 0 -13px no-repeat;
+}
+
+.editOptions .add a {
+ background: url(images/i3.png) 0 -13px no-repeat;
+}
+
+td.editableCell {
+ vertical-align: top;
+}
+
+table td.editableCell:hover {
+ background: #d3d3d3;
+ cursor: pointer;
+}
+
+.editCellForm {
+ position: relative;
+ width: 100%;
+}
+
+.editCellForm fieldset {
+ position: absolute;
+ top: -26px;
+ left: -12px;
+ width: 54px;
+ height: 34px;
+}
+
+.mark {
+ width: 58px;
+}
+
+h3.alt {
+ font-weight: bold;
+}
+
+.addType {
+ text-align: right;
+ font-size: 11px;
+ padding-right: 14px;
+}
+
+.addType a {
+ padding: 0 0 0 17px;
+ background: url(images/i3.png) 0 1px no-repeat;
+}
+
+.lesson-frame{
+	background-color:#D8E3E8;
+	padding:10px;
+	margin-bottom:20px;
+	/*border:1px solid #ddd;*/
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+}
+
+.lesson-details-table{}
+.lesson-details-table th{text-align:left; width:100px;}
+.lesson-details-table th, .lesson-details-table td{vertical-align:top;}
+
+
+.teacher-image{float:left;margin:0 10px 10px 0; border:1px solid #ccc;}
+
+.les-mt-short{color:#3399CC; font-weight:bold; width:40px;}
+.les-mt-full{color:#000; font-style:italic;}
+
+
+.lesson-mt-list{border-collapse:collapse; background-color:#fff; width:100%;}
+.lesson-mt-list td{border-top:1px solid #ccc; border-bottom:1px solid #ccc;padding:0px 5px;}
+
+.les-journal-table{border-collapse:collapse; width:100%; cursor:default;}
+.les-journal-table th{padding:5px;font-weight:bold; text-align:center; background-color:#006EB5; color:#fff; border:1px solid #1B7DBC;}
+.les-journal-table td{border-top:1px solid #ccc;background-color:#fff;padding:5px;}
+.les-journal-table .ljt-num{width:30px; text-align:center;}
+.les-journal-table .ljt-mark{width:30px; position:relative; text-align:center; border-left:1px solid #CCC; border-right:1px solid #CCC;}
+
+.les-journal-table tr:nth-child(2n+3) td{background-color:#eee;}
+.les-journal-table .ljt-comment{width:200px;}
+
+.content ul.editOptions li {
+background:none;
+margin:0;
+}
+.middle .container {
+overflow: visible;
+}
+.logsContainer div.select, .logsContainer select {
+width:auto;
+}
+.content .stat h3, .content .workTypes h3, .content .logs h3 {
+background: none;}

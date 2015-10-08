@@ -1,0 +1,34 @@
+<?
+$MESS ['SS_ID'] = "ID";
+$MESS ['SS_FULL_NAME'] = "Full Name";
+$MESS ['SS_NAME'] = "First Name";
+$MESS ['SS_LAST_NAME'] = "Last Name";
+$MESS ['SS_SECOND_NAME'] = "Second Name";
+$MESS ['SS_EMAIL'] = "E-Mail";
+$MESS ['SS_LOGIN'] = "Login";
+$MESS ['SS_DATE_REGISTER'] = "Registered On:";
+$MESS ['SS_PERSONAL_WWW'] = "Web Site";
+$MESS ['SS_PERSONAL_PROFESSION'] = "Job Title";
+$MESS ['SS_PERSONAL_ICQ'] = "ICQ";
+$MESS ['SS_PERSONAL_GENDER'] = "Sex";
+$MESS ['SS_PERSONAL_BIRTHDAY'] = "Date Of Birth";
+$MESS ['SS_PERSONAL_PHOTO'] = "Photo";
+$MESS ['SS_PERSONAL_PHONE'] = "Phone";
+$MESS ['SS_PERSONAL_FAX'] = "Fax";
+$MESS ['SS_PERSONAL_MOBILE'] = "Mobile";
+$MESS ['SS_PERSONAL_PAGER'] = "Pager";
+$MESS ['SS_PERSONAL_PHONES'] = "Phones";
+$MESS ['SS_PERSONAL_POST_ADDRESS'] = "Mailing Address";
+$MESS ['SS_PERSONAL_CITY'] = "City";
+$MESS ['SS_PERSONAL_STREET'] = "Street Address";
+$MESS ['SS_PERSONAL_STATE'] = "Region/State";
+$MESS ['SS_PERSONAL_MAILBOX'] = "P.O. Box";
+$MESS ['SS_PERSONAL_ZIP'] = "Zip";
+$MESS ['SS_PERSONAL_COUNTRY'] = "Country";
+$MESS ['SS_PERSONAL_NOTES'] = "Notes";
+$MESS ['SS_PERSONAL_POSITION'] = "Position";
+$MESS ['SS_WORK_PHONE'] = "Work Phone";
+$MESS ['SS_ADMIN_NOTES'] = "Administrator Notes";
+$MESS ['SS_XML_ID'] = "External ID";
+$MESS ['SS_TPL_PARAM_USER_PROPERTY'] = "Custom Fields for Export";
+?>
